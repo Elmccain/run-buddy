@@ -34,14 +34,18 @@ header nav {
     margin: 7px 0;
 }
 /* change the way the li lay themselves out */
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
 }
 /* give the nav a li margins, weight, and size */
 header nav ul li a {
     margin: 0 30px;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.55vw;
 }
 /*add sass to the footer */
 footer {
